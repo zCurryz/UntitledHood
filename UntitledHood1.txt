@@ -62,16 +62,30 @@ local AdminPanel2 = Instance.new("TextButton")
 local UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint")
 local AdminPanel = Instance.new("Frame")
 local Admin = Instance.new("TextButton")
-local UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_4 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_24 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_5 = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
 local SilentAimTab = Instance.new("Frame")
 local SilentAim_2 = Instance.new("TextButton")
-local UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_26 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_24 = Instance.new("UIAspectRatioConstraint")
 local LocalPlayer = Instance.new("TextButton")
+local UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
+local CreditsTab = Instance.new("Frame")
+local Misc = Instance.new("TextButton")
+local UIAspectRatioConstraint_26 = Instance.new("UIAspectRatioConstraint")
+local Credits = Instance.new("TextButton")
 local UIAspectRatioConstraint_27 = Instance.new("UIAspectRatioConstraint")
+local MiscTab = Instance.new("Frame")
 local LocalPlayerTab = Instance.new("Frame")
 
 --Properties:
@@ -398,37 +412,125 @@ AdminPanel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 AdminPanel.BackgroundTransparency = 1.000
 AdminPanel.BorderSizePixel = 0
 AdminPanel.Position = UDim2.new(0.238421947, 0, 0.0437747017, 0)
-AdminPanel.Size = UDim2.new(0.684854567, 0, 0.118875369, 0)
+AdminPanel.Size = UDim2.new(0.684854567, 0, 0.118875362, 0)
 AdminPanel.Visible = false
 
 Admin.Name = "Admin"
 Admin.Parent = AdminPanel
 Admin.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
 Admin.BorderSizePixel = 0
+Admin.Position = UDim2.new(0.00964480266, 0, 4.87475872, 0)
 Admin.Size = UDim2.new(1, 0, 1.02040815, 0)
 Admin.Font = Enum.Font.GothamBold
-Admin.Text = "Admin Panel"
+Admin.Text = "Click Once For Linux Admin Panel"
 Admin.TextColor3 = Color3.fromRGB(255, 255, 255)
 Admin.TextSize = 18.000
 
-UIAspectRatioConstraint_22.Parent = Admin
-UIAspectRatioConstraint_22.AspectRatio = 8.120
-
 TextLabel_4.Parent = AdminPanel
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextLabel_4.BackgroundTransparency = 1.000
 TextLabel_4.BorderSizePixel = 0
-TextLabel_4.Position = UDim2.new(0.00246305414, 0, 1.28571427, 0)
-TextLabel_4.Size = UDim2.new(0.997536957, 0, 1.02040803, 0)
+TextLabel_4.Position = UDim2.new(0.00700000022, 0, 0.107000001, 0)
+TextLabel_4.Size = UDim2.new(0.997536898, 0, 1.02040803, 0)
 TextLabel_4.Font = Enum.Font.GothamBold
 TextLabel_4.Text = "Please allow up to 10 seconds once clicking Admin Panel"
 TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.TextSize = 12.000
+TextLabel_4.TextSize = 13.000
 
-UIAspectRatioConstraint_23.Parent = TextLabel_4
-UIAspectRatioConstraint_23.AspectRatio = 8.100
+UIAspectRatioConstraint_22.Parent = AdminPanel
+UIAspectRatioConstraint_22.AspectRatio = 8.286
 
-UIAspectRatioConstraint_24.Parent = AdminPanel
-UIAspectRatioConstraint_24.AspectRatio = 8.286
+TextLabel_5.Parent = AdminPanel
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.00499999989, 0, -0.300000012, 0)
+TextLabel_5.Size = UDim2.new(1.00064826, 0, 0.998925924, 0)
+TextLabel_5.Font = Enum.Font.GothamBold
+TextLabel_5.Text = "Linux Admin Panel [Seperate GUI] Use At Your Own Risk!"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 15.000
+
+Frame_2.Parent = AdminPanel
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.Position = UDim2.new(0.00482232776, 0, 1.01890409, 0)
+Frame_2.Size = UDim2.new(1.00064826, 0, 0, 0)
+
+TextLabel_6.Parent = AdminPanel
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.260409713, 0, 1.11879706, 0)
+TextLabel_6.Size = UDim2.new(0.48224014, 0, 0.998925924, 0)
+TextLabel_6.Font = Enum.Font.GothamBold
+TextLabel_6.Text = "Features:"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 17.000
+
+TextLabel_7.Parent = AdminPanel
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(-0.0241119899, 0, 1.71815264, 0)
+TextLabel_7.Size = UDim2.new(0.48224014, 0, 0.998925924, 0)
+TextLabel_7.Font = Enum.Font.GothamBold
+TextLabel_7.Text = "• Give Everyone Max Cash"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+
+Frame_3.Parent = AdminPanel
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.Position = UDim2.new(0.421960056, 0, 1.85800195, 0)
+Frame_3.Size = UDim2.new(0.178428844, 0, 0, 0)
+
+TextLabel_8.Parent = AdminPanel
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(-0.0241119899, 0, 2.39742231, 0)
+TextLabel_8.Size = UDim2.new(0.48224014, 0, 0.998925924, 0)
+TextLabel_8.Font = Enum.Font.GothamBold
+TextLabel_8.Text = "• Remove Everyones Cash"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+
+TextLabel_9.Parent = AdminPanel
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(-0.0333551988, 0, 3.11704302, 0)
+TextLabel_9.Size = UDim2.new(0.48224014, 0, 0.998925924, 0)
+TextLabel_9.Font = Enum.Font.GothamBold
+TextLabel_9.Text = "• Set Bountys On Targets"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 14.000
+
+TextLabel_10.Parent = AdminPanel
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.458052933, 0, 3.11683774, 0)
+TextLabel_10.Size = UDim2.new(0.48224014, 0, 0.998925924, 0)
+TextLabel_10.Font = Enum.Font.GothamBold
+TextLabel_10.Text = "• Reset Target Bounty"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 14.000
+
+TextLabel_11.Parent = AdminPanel
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.535286546, 0, 1.71815264, 0)
+TextLabel_11.Size = UDim2.new(0.48224014, 0, 0.998925924, 0)
+TextLabel_11.Font = Enum.Font.GothamBold
+TextLabel_11.Text = "• Remove Specific Peoples Cash"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 14.000
+
+TextLabel_12.Parent = AdminPanel
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.50394094, 0, 2.39742231, 0)
+TextLabel_12.Size = UDim2.new(0.48224014, 0, 0.998925924, 0)
+TextLabel_12.Font = Enum.Font.GothamBold
+TextLabel_12.Text = "• Give Specific People Cash"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 14.000
 
 SilentAimTab.Name = "SilentAimTab"
 SilentAimTab.Parent = Frame
@@ -449,25 +551,69 @@ SilentAim_2.Text = "Silent Aim"
 SilentAim_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 SilentAim_2.TextSize = 18.000
 
-UIAspectRatioConstraint_25.Parent = SilentAim_2
-UIAspectRatioConstraint_25.AspectRatio = 7.960
+UIAspectRatioConstraint_23.Parent = SilentAim_2
+UIAspectRatioConstraint_23.AspectRatio = 7.960
 
-UIAspectRatioConstraint_26.Parent = SilentAimTab
-UIAspectRatioConstraint_26.AspectRatio = 8.122
+UIAspectRatioConstraint_24.Parent = SilentAimTab
+UIAspectRatioConstraint_24.AspectRatio = 8.122
 
 LocalPlayer.Name = "LocalPlayer"
 LocalPlayer.Parent = Frame
 LocalPlayer.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 LocalPlayer.BorderSizePixel = 0
-LocalPlayer.Position = UDim2.new(0.0151840104, 0, 0.842593253, 0)
+LocalPlayer.Position = UDim2.new(0.0151840104, 0, 0.621722519, 0)
 LocalPlayer.Size = UDim2.new(0.19111295, 0, 0.0974501744, 0)
 LocalPlayer.Font = Enum.Font.GothamBold
 LocalPlayer.Text = "Player [soon]"
 LocalPlayer.TextColor3 = Color3.fromRGB(255, 255, 255)
 LocalPlayer.TextSize = 16.000
 
-UIAspectRatioConstraint_27.Parent = LocalPlayer
+UIAspectRatioConstraint_25.Parent = LocalPlayer
+UIAspectRatioConstraint_25.AspectRatio = 2.840
+
+CreditsTab.Name = "CreditsTab"
+CreditsTab.Parent = Frame
+CreditsTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreditsTab.BackgroundTransparency = 1.000
+CreditsTab.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CreditsTab.Position = UDim2.new(0.244395673, 0, 0.0451241173, 0)
+CreditsTab.Size = UDim2.new(0, 412, 0, 53)
+
+Misc.Name = "Misc"
+Misc.Parent = Frame
+Misc.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Misc.BorderSizePixel = 0
+Misc.Position = UDim2.new(0.0151840104, 0, 0.500599861, 0)
+Misc.Size = UDim2.new(0.19111295, 0, 0.0974501744, 0)
+Misc.Font = Enum.Font.GothamBold
+Misc.Text = "Misc"
+Misc.TextColor3 = Color3.fromRGB(255, 255, 255)
+Misc.TextSize = 16.000
+
+UIAspectRatioConstraint_26.Parent = Misc
+UIAspectRatioConstraint_26.AspectRatio = 2.840
+
+Credits.Name = "Credits"
+Credits.Parent = Frame
+Credits.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.0151840104, 0, 0.759469867, 0)
+Credits.Size = UDim2.new(0.19111295, 0, 0.0974501744, 0)
+Credits.Font = Enum.Font.GothamBold
+Credits.Text = "Credits"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextSize = 16.000
+
+UIAspectRatioConstraint_27.Parent = Credits
 UIAspectRatioConstraint_27.AspectRatio = 2.840
+
+MiscTab.Name = "MiscTab"
+MiscTab.Parent = Frame
+MiscTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MiscTab.BackgroundTransparency = 1.000
+MiscTab.BorderColor3 = Color3.fromRGB(27, 42, 53)
+MiscTab.Position = UDim2.new(0.244395673, 0, 0.0451241173, 0)
+MiscTab.Size = UDim2.new(0, 412, 0, 53)
 
 LocalPlayerTab.Name = "LocalPlayerTab"
 LocalPlayerTab.Parent = Frame
@@ -479,32 +625,7 @@ LocalPlayerTab.Size = UDim2.new(0, 412, 0, 53)
 
 -- Scripts:
 
-local Workspace = game:GetService("Workspace") 
-local Players = game.Players.LocalPlayer  
-local Character = Players.Character    
-function Buy(Object)    
-local Object = Object     
-local LockPicker = Workspace.Ignored.Shop[Object]     
-Character.HumanoidRootPart.CFrame = LockPicker.Head.CFrame + Vector3.new(0, 3, 0)     wait(0.5)     
-fireclickdetector(LockPicker.ClickDetector)     
-fireclickdetector(LockPicker.ClickDetector) end  
-Buy("[Revolver] - $1300")  wait(0.5)   wait(0.5) 
-
-game.ReplicatedStorage:FindFirstChild(".gg/untitledhood"):FireServer(
-"Reload",
-{
-	Name = "[Revolver]", --// reminder: [Double-Barrel SG] or [Revolver] works for any gun but i put it here so i can just copy and paste whenever i want to
-	Parent = Game.Players.LocalPlayer.Backpack,
-	ClassName = "Tool",
-	Ammo = {Value = math.huge*9e9},
-	MaxAmmo = {Value = 0},
-	GunScript = game:GetService("Players").LocalPlayer.Backpack["[Revolver]"].GunScript,
-	Handle = game:GetService("Players").LocalPlayer.Backpack["[Revolver]"].Handle
-}
-)
-
-
-local function EUSVP_fake_script() -- Shotgun.LocalScript 
+local function CZSNT_fake_script() -- Shotgun.LocalScript 
 	local script = Instance.new('LocalScript', Shotgun)
 
 	local player = game.Players.LocalPlayer
@@ -514,8 +635,8 @@ local function EUSVP_fake_script() -- Shotgun.LocalScript
 	end)
 	
 end
-coroutine.wrap(EUSVP_fake_script)()
-local function GTZF_fake_script() -- DbShotgun.LocalScript 
+coroutine.wrap(CZSNT_fake_script)()
+local function CBOVOE_fake_script() -- DbShotgun.LocalScript 
 	local script = Instance.new('LocalScript', DbShotgun)
 
 	local player = game.Players.LocalPlayer
@@ -525,8 +646,8 @@ local function GTZF_fake_script() -- DbShotgun.LocalScript
 	end)
 	
 end
-coroutine.wrap(GTZF_fake_script)()
-local function KHFLRVR_fake_script() -- Revolver.LocalScript 
+coroutine.wrap(CBOVOE_fake_script)()
+local function UNEP_fake_script() -- Revolver.LocalScript 
 	local script = Instance.new('LocalScript', Revolver)
 
 	local player = game.Players.LocalPlayer
@@ -536,8 +657,8 @@ local function KHFLRVR_fake_script() -- Revolver.LocalScript
 	end)
 	
 end
-coroutine.wrap(KHFLRVR_fake_script)()
-local function ZDQLUYJ_fake_script() -- Glock.LocalScript 
+coroutine.wrap(UNEP_fake_script)()
+local function NKWZKUH_fake_script() -- Glock.LocalScript 
 	local script = Instance.new('LocalScript', Glock)
 
 	local player = game.Players.LocalPlayer
@@ -547,8 +668,8 @@ local function ZDQLUYJ_fake_script() -- Glock.LocalScript
 	end)
 	
 end
-coroutine.wrap(ZDQLUYJ_fake_script)()
-local function OFULQ_fake_script() -- P90.LocalScript 
+coroutine.wrap(NKWZKUH_fake_script)()
+local function WUTBFWK_fake_script() -- P90.LocalScript 
 	local script = Instance.new('LocalScript', P90)
 
 	local player = game.Players.LocalPlayer
@@ -558,8 +679,8 @@ local function OFULQ_fake_script() -- P90.LocalScript
 	end)
 	
 end
-coroutine.wrap(OFULQ_fake_script)()
-local function WAWTOFZ_fake_script() -- HighArmor.LocalScript 
+coroutine.wrap(WUTBFWK_fake_script)()
+local function YTNIQ_fake_script() -- HighArmor.LocalScript 
 	local script = Instance.new('LocalScript', HighArmor)
 
 	local player = game.Players.LocalPlayer
@@ -569,8 +690,8 @@ local function WAWTOFZ_fake_script() -- HighArmor.LocalScript
 	end)
 	
 end
-coroutine.wrap(WAWTOFZ_fake_script)()
-local function CFJVI_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(YTNIQ_fake_script)()
+local function TWLYJQ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -578,8 +699,8 @@ local function CFJVI_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(CFJVI_fake_script)()
-local function NISF_fake_script() -- TacoArea.LocalScript 
+coroutine.wrap(TWLYJQ_fake_script)()
+local function NKGI_fake_script() -- TacoArea.LocalScript 
 	local script = Instance.new('LocalScript', TacoArea)
 
 	local player = game.Players.LocalPlayer
@@ -589,8 +710,8 @@ local function NISF_fake_script() -- TacoArea.LocalScript
 	end)
 	
 end
-coroutine.wrap(NISF_fake_script)()
-local function MXQMZYU_fake_script() -- Basketball.LocalScript 
+coroutine.wrap(NKGI_fake_script)()
+local function YYQPOGV_fake_script() -- Basketball.LocalScript 
 	local script = Instance.new('LocalScript', Basketball)
 
 	local player = game.Players.LocalPlayer
@@ -600,8 +721,8 @@ local function MXQMZYU_fake_script() -- Basketball.LocalScript
 	end)
 	
 end
-coroutine.wrap(MXQMZYU_fake_script)()
-local function SQYZB_fake_script() -- Casino.LocalScript 
+coroutine.wrap(YYQPOGV_fake_script)()
+local function XGVXWF_fake_script() -- Casino.LocalScript 
 	local script = Instance.new('LocalScript', Casino)
 
 	local player = game.Players.LocalPlayer
@@ -611,8 +732,8 @@ local function SQYZB_fake_script() -- Casino.LocalScript
 	end)
 	
 end
-coroutine.wrap(SQYZB_fake_script)()
-local function ZWIM_fake_script() -- XFuel.LocalScript 
+coroutine.wrap(XGVXWF_fake_script)()
+local function ZLEQG_fake_script() -- XFuel.LocalScript 
 	local script = Instance.new('LocalScript', XFuel)
 
 	local player = game.Players.LocalPlayer
@@ -622,14 +743,16 @@ local function ZWIM_fake_script() -- XFuel.LocalScript
 	end)
 	
 end
-coroutine.wrap(ZWIM_fake_script)()
-local function VENVKJ_fake_script() -- SilentAim.LocalScript 
+coroutine.wrap(ZLEQG_fake_script)()
+local function QLOGUBO_fake_script() -- SilentAim.LocalScript 
 	local script = Instance.new('LocalScript', SilentAim)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Teleports.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 		script.Parent.Parent.AdminPanel2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 		script.Parent.Parent.LocalPlayerTab.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.Credits.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.Misc.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 		
 		
 		script.Parent.BackgroundColor3 = Color3.fromRGB(52,52,52) 
@@ -642,17 +765,22 @@ local function VENVKJ_fake_script() -- SilentAim.LocalScript
 		script.Parent.Parent.GunsFrame.Visible = false
 		script.Parent.Parent.AdminPanel.Visible = false
 		script.Parent.Parent.LocalPlayerTab.Visible = false
+		script.Parent.Parent.CreditsTab.Visible = false
+		script.Parent.Parent.MiscTab.Visible = false
+		
 	
 	end)
 end
-coroutine.wrap(VENVKJ_fake_script)()
-local function AWCG_fake_script() -- Teleports.LocalScript 
+coroutine.wrap(QLOGUBO_fake_script)()
+local function CNWTCNM_fake_script() -- Teleports.LocalScript 
 	local script = Instance.new('LocalScript', Teleports)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.SilentAim.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 		script.Parent.Parent.AdminPanel2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 		script.Parent.Parent.LocalPlayer.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.Credits.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.Misc.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 		
 		
 		script.Parent.BackgroundColor3 = Color3.fromRGB(52,52,52) 
@@ -660,6 +788,8 @@ local function AWCG_fake_script() -- Teleports.LocalScript
 		script.Parent.Parent.SilentAimTab.Visible = false
 		script.Parent.Parent.AdminPanel.Visible = false
 		script.Parent.Parent.LocalPlayerTab.Visible = false
+		script.Parent.Parent.CreditsTab.Visible = false
+		script.Parent.Parent.MiscTab.Visible = false
 		
 		script.Parent.Parent.GunsFrame.Visible = true
 		script.Parent.Parent.PlacesFrame.Visible = true
@@ -670,15 +800,16 @@ local function AWCG_fake_script() -- Teleports.LocalScript
 	
 	
 end
-coroutine.wrap(AWCG_fake_script)()
-local function PUQWVH_fake_script() -- AdminPanel2.LocalScript 
+coroutine.wrap(CNWTCNM_fake_script)()
+local function SNWJOKG_fake_script() -- AdminPanel2.LocalScript 
 	local script = Instance.new('LocalScript', AdminPanel2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.SilentAim.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 		script.Parent.Parent.Teleports.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 		script.Parent.Parent.LocalPlayer.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-		
+		script.Parent.Parent.Misc.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.Credits.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 		
 		script.Parent.BackgroundColor3 = Color3.fromRGB(52,52,52) 
 		
@@ -688,6 +819,9 @@ local function PUQWVH_fake_script() -- AdminPanel2.LocalScript
 		script.Parent.Parent.PlacesFrame.Visible = false
 		script.Parent.Parent.GunsFrame.Visible = false
 		script.Parent.Parent.LocalPlayerTab.Visible = false
+		script.Parent.Parent.CreditsTab.Visible = false
+		script.Parent.Parent.MiscTab.Visible = false
+		
 	
 	end)
 	
@@ -695,8 +829,8 @@ local function PUQWVH_fake_script() -- AdminPanel2.LocalScript
 	
 	
 end
-coroutine.wrap(PUQWVH_fake_script)()
-local function HRPQ_fake_script() -- Admin.LocalScript 
+coroutine.wrap(SNWJOKG_fake_script)()
+local function FWZUA_fake_script() -- Admin.LocalScript 
 	local script = Instance.new('LocalScript', Admin)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -706,16 +840,16 @@ local function HRPQ_fake_script() -- Admin.LocalScript
 	end)
 	
 end
-coroutine.wrap(HRPQ_fake_script)()
-local function TMNWNN_fake_script() -- Frame.Draggable 
+coroutine.wrap(FWZUA_fake_script)()
+local function MBVASM_fake_script() -- Frame.Draggable 
 	local script = Instance.new('LocalScript', Frame)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 	
 end
-coroutine.wrap(TMNWNN_fake_script)()
-local function EUDPA_fake_script() -- SilentAim_2.LocalScript 
+coroutine.wrap(MBVASM_fake_script)()
+local function KWJDNMI_fake_script() -- SilentAim_2.LocalScript 
 	local script = Instance.new('LocalScript', SilentAim_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -723,8 +857,8 @@ local function EUDPA_fake_script() -- SilentAim_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(EUDPA_fake_script)()
-local function CLLMED_fake_script() -- Frame.Close/Open 
+coroutine.wrap(KWJDNMI_fake_script)()
+local function WCYF_fake_script() -- Frame.Close/Open 
 	local script = Instance.new('LocalScript', Frame)
 
 	local uis = game:GetService("UserInputService")
@@ -744,14 +878,16 @@ local function CLLMED_fake_script() -- Frame.Close/Open
 	end
 	uis.InputBegan:Connect(onInput)
 end
-coroutine.wrap(CLLMED_fake_script)()
-local function HQFQMHW_fake_script() -- LocalPlayer.LocalScript 
+coroutine.wrap(WCYF_fake_script)()
+local function PEXVAD_fake_script() -- LocalPlayer.LocalScript 
 	local script = Instance.new('LocalScript', LocalPlayer)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.SilentAim.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 		script.Parent.Parent.Teleports.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 		script.Parent.Parent.AdminPanel2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.Credits.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.Misc.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 		
 		
 		
@@ -763,6 +899,8 @@ local function HQFQMHW_fake_script() -- LocalPlayer.LocalScript
 		script.Parent.Parent.SilentAimTab.Visible = false
 		script.Parent.Parent.PlacesFrame.Visible = false
 		script.Parent.Parent.GunsFrame.Visible = false
+		script.Parent.Parent.MiscTab.Visible = false
+		script.Parent.Parent.CreditsTab.Visible = false
 	
 	
 	end)
@@ -771,11 +909,69 @@ local function HQFQMHW_fake_script() -- LocalPlayer.LocalScript
 	
 	
 end
-coroutine.wrap(HQFQMHW_fake_script)()
-local function WBWFPU_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(PEXVAD_fake_script)()
+local function NCJU_fake_script() -- Misc.LocalScript 
+	local script = Instance.new('LocalScript', Misc)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.SilentAim.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.Teleports.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.LocalPlayer.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.AdminPanel2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.Credits.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		
+		script.Parent.Parent.MiscTab.Visible = true
+		
+		
+		script.Parent.BackgroundColor3 = Color3.fromRGB(52,52,52) 
+		
+		script.Parent.Parent.AdminPanel.Visible = false
+		script.Parent.Parent.SilentAimTab.Visible = false
+		script.Parent.Parent.PlacesFrame.Visible = false
+		script.Parent.Parent.GunsFrame.Visible = false
+		script.Parent.Parent.LocalPlayerTab.Visible = false
+		script.Parent.Parent.CreditsTab.Visible = false
+	
+	end)
+	
+		
+	
+	
+end
+coroutine.wrap(NCJU_fake_script)()
+local function VWAZEH_fake_script() -- Credits.LocalScript 
+	local script = Instance.new('LocalScript', Credits)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.SilentAim.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.Teleports.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.LocalPlayer.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.AdminPanel2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.Misc.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		
+		script.Parent.Parent.CreditsTab.Visible = true
+		
+		
+		script.Parent.BackgroundColor3 = Color3.fromRGB(52,52,52) 
+		
+		script.Parent.Parent.AdminPanel.Visible = false
+		script.Parent.Parent.SilentAimTab.Visible = false
+		script.Parent.Parent.PlacesFrame.Visible = false
+		script.Parent.Parent.GunsFrame.Visible = false
+		script.Parent.Parent.LocalPlayerTab.Visible = false
+		script.Parent.Parent.MiscTab.Visible = false
+	
+	end)
+	
+		
+	
+	
+end
+coroutine.wrap(VWAZEH_fake_script)()
+local function VUYDMUW_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	game:GetService("StarterGui").ResetPlayerGuiOnSpawn = false
 	
 end
-coroutine.wrap(WBWFPU_fake_script)()
+coroutine.wrap(VUYDMUW_fake_script)()
