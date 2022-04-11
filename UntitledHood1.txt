@@ -70,6 +70,8 @@ local SilentAimTab = Instance.new("Frame")
 local SilentAim_2 = Instance.new("TextButton")
 local UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
 local UIAspectRatioConstraint_26 = Instance.new("UIAspectRatioConstraint")
+local AdminPanel2_2 = Instance.new("TextButton")
+local UIAspectRatioConstraint_27 = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -451,9 +453,23 @@ UIAspectRatioConstraint_25.AspectRatio = 7.960
 UIAspectRatioConstraint_26.Parent = SilentAimTab
 UIAspectRatioConstraint_26.AspectRatio = 8.122
 
+AdminPanel2_2.Name = "AdminPanel2"
+AdminPanel2_2.Parent = Frame
+AdminPanel2_2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+AdminPanel2_2.BorderSizePixel = 0
+AdminPanel2_2.Position = UDim2.new(0.0151840104, 0, 0.491100073, 0)
+AdminPanel2_2.Size = UDim2.new(0.19111295, 0, 0.0974501744, 0)
+AdminPanel2_2.Font = Enum.Font.GothamBold
+AdminPanel2_2.Text = "Admin Panel"
+AdminPanel2_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdminPanel2_2.TextSize = 16.000
+
+UIAspectRatioConstraint_27.Parent = AdminPanel2_2
+UIAspectRatioConstraint_27.AspectRatio = 2.840
+
 -- Scripts:
 
-local function NNFTR_fake_script() -- Shotgun.LocalScript 
+local function YTKBSY_fake_script() -- Shotgun.LocalScript 
 	local script = Instance.new('LocalScript', Shotgun)
 
 	local player = game.Players.LocalPlayer
@@ -463,8 +479,8 @@ local function NNFTR_fake_script() -- Shotgun.LocalScript
 	end)
 	
 end
-coroutine.wrap(NNFTR_fake_script)()
-local function CMOUNAY_fake_script() -- DbShotgun.LocalScript 
+coroutine.wrap(YTKBSY_fake_script)()
+local function MHVLU_fake_script() -- DbShotgun.LocalScript 
 	local script = Instance.new('LocalScript', DbShotgun)
 
 	local player = game.Players.LocalPlayer
@@ -474,8 +490,8 @@ local function CMOUNAY_fake_script() -- DbShotgun.LocalScript
 	end)
 	
 end
-coroutine.wrap(CMOUNAY_fake_script)()
-local function YMDV_fake_script() -- Revolver.LocalScript 
+coroutine.wrap(MHVLU_fake_script)()
+local function CSOBAWC_fake_script() -- Revolver.LocalScript 
 	local script = Instance.new('LocalScript', Revolver)
 
 	local player = game.Players.LocalPlayer
@@ -485,8 +501,8 @@ local function YMDV_fake_script() -- Revolver.LocalScript
 	end)
 	
 end
-coroutine.wrap(YMDV_fake_script)()
-local function XJBQ_fake_script() -- Glock.LocalScript 
+coroutine.wrap(CSOBAWC_fake_script)()
+local function LQSZDAY_fake_script() -- Glock.LocalScript 
 	local script = Instance.new('LocalScript', Glock)
 
 	local player = game.Players.LocalPlayer
@@ -496,8 +512,8 @@ local function XJBQ_fake_script() -- Glock.LocalScript
 	end)
 	
 end
-coroutine.wrap(XJBQ_fake_script)()
-local function DDJUTUO_fake_script() -- P90.LocalScript 
+coroutine.wrap(LQSZDAY_fake_script)()
+local function DMPQW_fake_script() -- P90.LocalScript 
 	local script = Instance.new('LocalScript', P90)
 
 	local player = game.Players.LocalPlayer
@@ -507,8 +523,8 @@ local function DDJUTUO_fake_script() -- P90.LocalScript
 	end)
 	
 end
-coroutine.wrap(DDJUTUO_fake_script)()
-local function UBPYQSN_fake_script() -- HighArmor.LocalScript 
+coroutine.wrap(DMPQW_fake_script)()
+local function FKLXDI_fake_script() -- HighArmor.LocalScript 
 	local script = Instance.new('LocalScript', HighArmor)
 
 	local player = game.Players.LocalPlayer
@@ -518,8 +534,8 @@ local function UBPYQSN_fake_script() -- HighArmor.LocalScript
 	end)
 	
 end
-coroutine.wrap(UBPYQSN_fake_script)()
-local function VEQKTBW_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(FKLXDI_fake_script)()
+local function RBZXAC_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -527,8 +543,8 @@ local function VEQKTBW_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(VEQKTBW_fake_script)()
-local function LWQT_fake_script() -- TacoArea.LocalScript 
+coroutine.wrap(RBZXAC_fake_script)()
+local function SWMC_fake_script() -- TacoArea.LocalScript 
 	local script = Instance.new('LocalScript', TacoArea)
 
 	local player = game.Players.LocalPlayer
@@ -538,8 +554,8 @@ local function LWQT_fake_script() -- TacoArea.LocalScript
 	end)
 	
 end
-coroutine.wrap(LWQT_fake_script)()
-local function FTUNTOB_fake_script() -- Basketball.LocalScript 
+coroutine.wrap(SWMC_fake_script)()
+local function COWREV_fake_script() -- Basketball.LocalScript 
 	local script = Instance.new('LocalScript', Basketball)
 
 	local player = game.Players.LocalPlayer
@@ -549,8 +565,8 @@ local function FTUNTOB_fake_script() -- Basketball.LocalScript
 	end)
 	
 end
-coroutine.wrap(FTUNTOB_fake_script)()
-local function AHMWRH_fake_script() -- Casino.LocalScript 
+coroutine.wrap(COWREV_fake_script)()
+local function QZMVAW_fake_script() -- Casino.LocalScript 
 	local script = Instance.new('LocalScript', Casino)
 
 	local player = game.Players.LocalPlayer
@@ -560,8 +576,8 @@ local function AHMWRH_fake_script() -- Casino.LocalScript
 	end)
 	
 end
-coroutine.wrap(AHMWRH_fake_script)()
-local function LAVPPF_fake_script() -- XFuel.LocalScript 
+coroutine.wrap(QZMVAW_fake_script)()
+local function GBHIBX_fake_script() -- XFuel.LocalScript 
 	local script = Instance.new('LocalScript', XFuel)
 
 	local player = game.Players.LocalPlayer
@@ -571,8 +587,8 @@ local function LAVPPF_fake_script() -- XFuel.LocalScript
 	end)
 	
 end
-coroutine.wrap(LAVPPF_fake_script)()
-local function DOIWHI_fake_script() -- SilentAim.LocalScript 
+coroutine.wrap(GBHIBX_fake_script)()
+local function LKCN_fake_script() -- SilentAim.LocalScript 
 	local script = Instance.new('LocalScript', SilentAim)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -592,8 +608,8 @@ local function DOIWHI_fake_script() -- SilentAim.LocalScript
 	
 	end)
 end
-coroutine.wrap(DOIWHI_fake_script)()
-local function OAIN_fake_script() -- Teleports.LocalScript 
+coroutine.wrap(LKCN_fake_script)()
+local function BBNC_fake_script() -- Teleports.LocalScript 
 	local script = Instance.new('LocalScript', Teleports)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -615,8 +631,8 @@ local function OAIN_fake_script() -- Teleports.LocalScript
 	
 	
 end
-coroutine.wrap(OAIN_fake_script)()
-local function RLUD_fake_script() -- AdminPanel2.LocalScript 
+coroutine.wrap(BBNC_fake_script)()
+local function GHHWUSU_fake_script() -- AdminPanel2.LocalScript 
 	local script = Instance.new('LocalScript', AdminPanel2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -639,8 +655,8 @@ local function RLUD_fake_script() -- AdminPanel2.LocalScript
 	
 	
 end
-coroutine.wrap(RLUD_fake_script)()
-local function ABPN_fake_script() -- Admin.LocalScript 
+coroutine.wrap(GHHWUSU_fake_script)()
+local function SSUN_fake_script() -- Admin.LocalScript 
 	local script = Instance.new('LocalScript', Admin)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -650,16 +666,16 @@ local function ABPN_fake_script() -- Admin.LocalScript
 	end)
 	
 end
-coroutine.wrap(ABPN_fake_script)()
-local function CFZUT_fake_script() -- Frame.Draggable 
+coroutine.wrap(SSUN_fake_script)()
+local function QLQPP_fake_script() -- Frame.Draggable 
 	local script = Instance.new('LocalScript', Frame)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 	
 end
-coroutine.wrap(CFZUT_fake_script)()
-local function YLYO_fake_script() -- SilentAim_2.LocalScript 
+coroutine.wrap(QLQPP_fake_script)()
+local function UJXQIBO_fake_script() -- SilentAim_2.LocalScript 
 	local script = Instance.new('LocalScript', SilentAim_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -667,8 +683,8 @@ local function YLYO_fake_script() -- SilentAim_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(YLYO_fake_script)()
-local function TWVMLP_fake_script() -- Frame.Close/Open 
+coroutine.wrap(UJXQIBO_fake_script)()
+local function NDKSNPR_fake_script() -- Frame.Close/Open 
 	local script = Instance.new('LocalScript', Frame)
 
 	local uis = game:GetService("UserInputService")
@@ -679,13 +695,37 @@ local function TWVMLP_fake_script() -- Frame.Close/Open
 	local function onInput(input)
 		if input.KeyCode == openKey then
 			if isOpen then
-				frm:TweenPosition(UDim2.new(.266, 0, -.6, 0), "Out")
+				frm.Visible = false
 			else
-				frm:TweenPosition(UDim2.new({1, 0},{0.5, 0}), "In") 
+				frm.Visible = true
 			end
 			isOpen = not isOpen
 		end
 	end
 	uis.InputBegan:Connect(onInput)
 end
-coroutine.wrap(TWVMLP_fake_script)()
+coroutine.wrap(NDKSNPR_fake_script)()
+local function LMRPIA_fake_script() -- AdminPanel2_2.LocalScript 
+	local script = Instance.new('LocalScript', AdminPanel2_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.SilentAim.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.Teleports.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		
+		
+		script.Parent.BackgroundColor3 = Color3.fromRGB(52,52,52) 
+		
+		script.Parent.Parent.AdminPanel.Visible = true
+		
+		script.Parent.Parent.SilentAimTab.Visible = false
+		script.Parent.Parent.PlacesFrame.Visible = false
+		script.Parent.Parent.GunsFrame.Visible = false
+	
+	
+	end)
+	
+		
+	
+	
+end
+coroutine.wrap(LMRPIA_fake_script)()
