@@ -54,16 +54,19 @@ local UICorner_12 = Instance.new("UICorner")
 local XFuel = Instance.new("TextButton")
 local UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
 local UICorner_13 = Instance.new("UICorner")
-local SilentAim = Instance.new("TextButton")
+local AdminSpawn = Instance.new("TextButton")
 local UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
-local Teleports = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local SilentAim = Instance.new("TextButton")
 local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
-local AdminPanel2 = Instance.new("TextButton")
+local Teleports = Instance.new("TextButton")
 local UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint")
+local AdminPanel2 = Instance.new("TextButton")
+local UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
 local AdminPanel = Instance.new("Frame")
 local Admin = Instance.new("TextButton")
 local TextLabel_4 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_5 = Instance.new("TextLabel")
 local Frame_2 = Instance.new("Frame")
 local TextLabel_6 = Instance.new("TextLabel")
@@ -76,30 +79,30 @@ local TextLabel_11 = Instance.new("TextLabel")
 local TextLabel_12 = Instance.new("TextLabel")
 local SilentAimTab = Instance.new("Frame")
 local SilentAim_2 = Instance.new("TextButton")
-local UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint")
 local UIAspectRatioConstraint_24 = Instance.new("UIAspectRatioConstraint")
-local LocalPlayer = Instance.new("TextButton")
 local UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
+local LocalPlayer = Instance.new("TextButton")
+local UIAspectRatioConstraint_26 = Instance.new("UIAspectRatioConstraint")
 local CreditsTab = Instance.new("Frame")
 local Misc = Instance.new("TextButton")
-local UIAspectRatioConstraint_26 = Instance.new("UIAspectRatioConstraint")
-local Credits = Instance.new("TextButton")
 local UIAspectRatioConstraint_27 = Instance.new("UIAspectRatioConstraint")
+local Credits = Instance.new("TextButton")
+local UIAspectRatioConstraint_28 = Instance.new("UIAspectRatioConstraint")
 local MiscTab = Instance.new("Frame")
 local Antifling = Instance.new("TextButton")
-local UIAspectRatioConstraint_28 = Instance.new("UIAspectRatioConstraint")
-local UICorner_14 = Instance.new("UICorner")
-local Fly = Instance.new("TextButton")
 local UIAspectRatioConstraint_29 = Instance.new("UIAspectRatioConstraint")
 local UICorner_15 = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local UIAspectRatioConstraint_30 = Instance.new("UIAspectRatioConstraint")
+local UICorner_16 = Instance.new("UICorner")
 local TextLabel_13 = Instance.new("TextLabel")
 local Frame_4 = Instance.new("Frame")
 local LocalPlayerTab = Instance.new("Frame")
 local Basketball_2 = Instance.new("TextButton")
-local UIAspectRatioConstraint_30 = Instance.new("UIAspectRatioConstraint")
-local UICorner_16 = Instance.new("UICorner")
-local TextLabel_14 = Instance.new("TextLabel")
 local UIAspectRatioConstraint_31 = Instance.new("UIAspectRatioConstraint")
+local UICorner_17 = Instance.new("UICorner")
+local TextLabel_14 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_32 = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -377,6 +380,23 @@ UIAspectRatioConstraint_18.AspectRatio = 5.791
 UICorner_13.CornerRadius = UDim.new(0, 9)
 UICorner_13.Parent = XFuel
 
+AdminSpawn.Name = "AdminSpawn"
+AdminSpawn.Parent = PlacesFrame
+AdminSpawn.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+AdminSpawn.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AdminSpawn.Position = UDim2.new(1.11606693, 0, 6.26734924, 0)
+AdminSpawn.Size = UDim2.new(1.15043855, 0, 1.02380955, 0)
+AdminSpawn.Font = Enum.Font.GothamBold
+AdminSpawn.Text = "Admin Spawn"
+AdminSpawn.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdminSpawn.TextSize = 16.000
+
+UIAspectRatioConstraint_19.Parent = AdminSpawn
+UIAspectRatioConstraint_19.AspectRatio = 5.791
+
+UICorner_14.CornerRadius = UDim.new(0, 9)
+UICorner_14.Parent = AdminSpawn
+
 SilentAim.Name = "SilentAim"
 SilentAim.Parent = Frame
 SilentAim.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -388,8 +408,8 @@ SilentAim.Text = "Silent Aim"
 SilentAim.TextColor3 = Color3.fromRGB(255, 255, 255)
 SilentAim.TextSize = 16.000
 
-UIAspectRatioConstraint_19.Parent = SilentAim
-UIAspectRatioConstraint_19.AspectRatio = 2.840
+UIAspectRatioConstraint_20.Parent = SilentAim
+UIAspectRatioConstraint_20.AspectRatio = 2.840
 
 Teleports.Name = "Teleports"
 Teleports.Parent = Frame
@@ -402,8 +422,8 @@ Teleports.Text = "Teleports"
 Teleports.TextColor3 = Color3.fromRGB(255, 255, 255)
 Teleports.TextSize = 16.000
 
-UIAspectRatioConstraint_20.Parent = Teleports
-UIAspectRatioConstraint_20.AspectRatio = 2.840
+UIAspectRatioConstraint_21.Parent = Teleports
+UIAspectRatioConstraint_21.AspectRatio = 2.840
 
 AdminPanel2.Name = "AdminPanel2"
 AdminPanel2.Parent = Frame
@@ -416,8 +436,8 @@ AdminPanel2.Text = "Admin Panel"
 AdminPanel2.TextColor3 = Color3.fromRGB(255, 255, 255)
 AdminPanel2.TextSize = 16.000
 
-UIAspectRatioConstraint_21.Parent = AdminPanel2
-UIAspectRatioConstraint_21.AspectRatio = 2.840
+UIAspectRatioConstraint_22.Parent = AdminPanel2
+UIAspectRatioConstraint_22.AspectRatio = 2.840
 
 AdminPanel.Name = "AdminPanel"
 AdminPanel.Parent = Frame
@@ -450,8 +470,8 @@ TextLabel_4.Text = "Please allow up to 10 seconds once clicking Admin Panel"
 TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.TextSize = 13.000
 
-UIAspectRatioConstraint_22.Parent = AdminPanel
-UIAspectRatioConstraint_22.AspectRatio = 8.286
+UIAspectRatioConstraint_23.Parent = AdminPanel
+UIAspectRatioConstraint_23.AspectRatio = 8.286
 
 TextLabel_5.Parent = AdminPanel
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -552,6 +572,7 @@ SilentAimTab.BackgroundTransparency = 1.000
 SilentAimTab.BorderSizePixel = 0
 SilentAimTab.Position = UDim2.new(0.25194943, 0, 0.105301037, 0)
 SilentAimTab.Size = UDim2.new(0.671359897, 0, 0.118875369, 0)
+SilentAimTab.Visible = false
 
 SilentAim_2.Name = "SilentAim"
 SilentAim_2.Parent = SilentAimTab
@@ -563,11 +584,11 @@ SilentAim_2.Text = "Silent Aim"
 SilentAim_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 SilentAim_2.TextSize = 18.000
 
-UIAspectRatioConstraint_23.Parent = SilentAim_2
-UIAspectRatioConstraint_23.AspectRatio = 7.960
+UIAspectRatioConstraint_24.Parent = SilentAim_2
+UIAspectRatioConstraint_24.AspectRatio = 7.960
 
-UIAspectRatioConstraint_24.Parent = SilentAimTab
-UIAspectRatioConstraint_24.AspectRatio = 8.122
+UIAspectRatioConstraint_25.Parent = SilentAimTab
+UIAspectRatioConstraint_25.AspectRatio = 8.122
 
 LocalPlayer.Name = "LocalPlayer"
 LocalPlayer.Parent = Frame
@@ -580,8 +601,8 @@ LocalPlayer.Text = "Player [soon]"
 LocalPlayer.TextColor3 = Color3.fromRGB(255, 255, 255)
 LocalPlayer.TextSize = 16.000
 
-UIAspectRatioConstraint_25.Parent = LocalPlayer
-UIAspectRatioConstraint_25.AspectRatio = 2.840
+UIAspectRatioConstraint_26.Parent = LocalPlayer
+UIAspectRatioConstraint_26.AspectRatio = 2.840
 
 CreditsTab.Name = "CreditsTab"
 CreditsTab.Parent = Frame
@@ -602,8 +623,8 @@ Misc.Text = "Misc"
 Misc.TextColor3 = Color3.fromRGB(255, 255, 255)
 Misc.TextSize = 16.000
 
-UIAspectRatioConstraint_26.Parent = Misc
-UIAspectRatioConstraint_26.AspectRatio = 2.840
+UIAspectRatioConstraint_27.Parent = Misc
+UIAspectRatioConstraint_27.AspectRatio = 2.840
 
 Credits.Name = "Credits"
 Credits.Parent = Frame
@@ -616,8 +637,8 @@ Credits.Text = "Credits"
 Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
 Credits.TextSize = 16.000
 
-UIAspectRatioConstraint_27.Parent = Credits
-UIAspectRatioConstraint_27.AspectRatio = 2.840
+UIAspectRatioConstraint_28.Parent = Credits
+UIAspectRatioConstraint_28.AspectRatio = 2.840
 
 MiscTab.Name = "MiscTab"
 MiscTab.Parent = Frame
@@ -638,11 +659,11 @@ Antifling.Text = "Anti Fling"
 Antifling.TextColor3 = Color3.fromRGB(255, 255, 255)
 Antifling.TextSize = 16.000
 
-UIAspectRatioConstraint_28.Parent = Antifling
-UIAspectRatioConstraint_28.AspectRatio = 5.791
+UIAspectRatioConstraint_29.Parent = Antifling
+UIAspectRatioConstraint_29.AspectRatio = 5.791
 
-UICorner_14.CornerRadius = UDim.new(0, 9)
-UICorner_14.Parent = Antifling
+UICorner_15.CornerRadius = UDim.new(0, 9)
+UICorner_15.Parent = Antifling
 
 Fly.Name = "Fly"
 Fly.Parent = MiscTab
@@ -654,11 +675,11 @@ Fly.Text = "Fly [X To Toggle]"
 Fly.TextColor3 = Color3.fromRGB(255, 255, 255)
 Fly.TextSize = 16.000
 
-UIAspectRatioConstraint_29.Parent = Fly
-UIAspectRatioConstraint_29.AspectRatio = 5.791
+UIAspectRatioConstraint_30.Parent = Fly
+UIAspectRatioConstraint_30.AspectRatio = 5.791
 
-UICorner_15.CornerRadius = UDim.new(0, 9)
-UICorner_15.Parent = Fly
+UICorner_16.CornerRadius = UDim.new(0, 9)
+UICorner_16.Parent = Fly
 
 TextLabel_13.Parent = MiscTab
 TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -696,11 +717,11 @@ Basketball_2.Text = "Walkspeed"
 Basketball_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Basketball_2.TextSize = 16.000
 
-UIAspectRatioConstraint_30.Parent = Basketball_2
-UIAspectRatioConstraint_30.AspectRatio = 5.791
+UIAspectRatioConstraint_31.Parent = Basketball_2
+UIAspectRatioConstraint_31.AspectRatio = 5.791
 
-UICorner_16.CornerRadius = UDim.new(0, 9)
-UICorner_16.Parent = Basketball_2
+UICorner_17.CornerRadius = UDim.new(0, 9)
+UICorner_17.Parent = Basketball_2
 
 TextLabel_14.Parent = Frame
 TextLabel_14.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -713,12 +734,37 @@ TextLabel_14.Text = "Q To Toggle"
 TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_14.TextSize = 11.000
 
-UIAspectRatioConstraint_31.Parent = TextLabel_14
-UIAspectRatioConstraint_31.AspectRatio = 2.600
+UIAspectRatioConstraint_32.Parent = TextLabel_14
+UIAspectRatioConstraint_32.AspectRatio = 2.600
 
 -- Scripts:
 
-local function KGPX_fake_script() -- Shotgun.LocalScript 
+local Workspace = game:GetService("Workspace") 
+local Players = game.Players.LocalPlayer  
+local Character = Players.Character     
+function Buy(Object)     
+	local Object = Object     
+	local LockPicker = Workspace.Ignored.Shop[Object]     
+	Character.HumanoidRootPart.CFrame = LockPicker.Head.CFrame + Vector3.new(0, 3, 0)     
+	wait(0.5)     
+	fireclickdetector(LockPicker.ClickDetector)     
+	fireclickdetector(LockPicker.ClickDetector) end  
+Buy("[Revolver] - $1300")  wait(0.5)   wait(0.5)
+
+game.ReplicatedStorage:FindFirstChild(".gg/untitledhood"):FireServer(
+"Reload",
+{
+	Name = "[Revolver]", --// reminder: [Double-Barrel SG] or [Revolver] works for any gun but i put it here so i can just copy and paste whenever i want to
+	Parent = Game.Players.LocalPlayer.Backpack,
+	ClassName = "Tool",
+	Ammo = {Value = math.huge*9e9},
+	MaxAmmo = {Value = 0},
+	GunScript = game:GetService("Players").LocalPlayer.Backpack["[Revolver]"].GunScript,
+	Handle = game:GetService("Players").LocalPlayer.Backpack["[Revolver]"].Handle
+}
+)
+
+local function EMBZCKJ_fake_script() -- Shotgun.LocalScript 
 	local script = Instance.new('LocalScript', Shotgun)
 
 	local player = game.Players.LocalPlayer
@@ -728,8 +774,8 @@ local function KGPX_fake_script() -- Shotgun.LocalScript
 	end)
 	
 end
-coroutine.wrap(KGPX_fake_script)()
-local function YKDC_fake_script() -- DbShotgun.LocalScript 
+coroutine.wrap(EMBZCKJ_fake_script)()
+local function WPMAN_fake_script() -- DbShotgun.LocalScript 
 	local script = Instance.new('LocalScript', DbShotgun)
 
 	local player = game.Players.LocalPlayer
@@ -739,8 +785,8 @@ local function YKDC_fake_script() -- DbShotgun.LocalScript
 	end)
 	
 end
-coroutine.wrap(YKDC_fake_script)()
-local function MKSQH_fake_script() -- Revolver.LocalScript 
+coroutine.wrap(WPMAN_fake_script)()
+local function YHZKLDK_fake_script() -- Revolver.LocalScript 
 	local script = Instance.new('LocalScript', Revolver)
 
 	local player = game.Players.LocalPlayer
@@ -750,8 +796,8 @@ local function MKSQH_fake_script() -- Revolver.LocalScript
 	end)
 	
 end
-coroutine.wrap(MKSQH_fake_script)()
-local function KSSLD_fake_script() -- Glock.LocalScript 
+coroutine.wrap(YHZKLDK_fake_script)()
+local function GAJR_fake_script() -- Glock.LocalScript 
 	local script = Instance.new('LocalScript', Glock)
 
 	local player = game.Players.LocalPlayer
@@ -761,8 +807,8 @@ local function KSSLD_fake_script() -- Glock.LocalScript
 	end)
 	
 end
-coroutine.wrap(KSSLD_fake_script)()
-local function COXD_fake_script() -- P90.LocalScript 
+coroutine.wrap(GAJR_fake_script)()
+local function YRSJX_fake_script() -- P90.LocalScript 
 	local script = Instance.new('LocalScript', P90)
 
 	local player = game.Players.LocalPlayer
@@ -772,8 +818,8 @@ local function COXD_fake_script() -- P90.LocalScript
 	end)
 	
 end
-coroutine.wrap(COXD_fake_script)()
-local function JNQM_fake_script() -- HighArmor.LocalScript 
+coroutine.wrap(YRSJX_fake_script)()
+local function NGRN_fake_script() -- HighArmor.LocalScript 
 	local script = Instance.new('LocalScript', HighArmor)
 
 	local player = game.Players.LocalPlayer
@@ -783,8 +829,8 @@ local function JNQM_fake_script() -- HighArmor.LocalScript
 	end)
 	
 end
-coroutine.wrap(JNQM_fake_script)()
-local function PJRO_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(NGRN_fake_script)()
+local function AGYVQ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -792,8 +838,8 @@ local function PJRO_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(PJRO_fake_script)()
-local function AACTTB_fake_script() -- TacoArea.LocalScript 
+coroutine.wrap(AGYVQ_fake_script)()
+local function AKBINI_fake_script() -- TacoArea.LocalScript 
 	local script = Instance.new('LocalScript', TacoArea)
 
 	local player = game.Players.LocalPlayer
@@ -803,8 +849,8 @@ local function AACTTB_fake_script() -- TacoArea.LocalScript
 	end)
 	
 end
-coroutine.wrap(AACTTB_fake_script)()
-local function TQXLM_fake_script() -- Basketball.LocalScript 
+coroutine.wrap(AKBINI_fake_script)()
+local function PQNFK_fake_script() -- Basketball.LocalScript 
 	local script = Instance.new('LocalScript', Basketball)
 
 	local player = game.Players.LocalPlayer
@@ -814,8 +860,8 @@ local function TQXLM_fake_script() -- Basketball.LocalScript
 	end)
 	
 end
-coroutine.wrap(TQXLM_fake_script)()
-local function JKTJA_fake_script() -- Casino.LocalScript 
+coroutine.wrap(PQNFK_fake_script)()
+local function SPZDA_fake_script() -- Casino.LocalScript 
 	local script = Instance.new('LocalScript', Casino)
 
 	local player = game.Players.LocalPlayer
@@ -825,8 +871,8 @@ local function JKTJA_fake_script() -- Casino.LocalScript
 	end)
 	
 end
-coroutine.wrap(JKTJA_fake_script)()
-local function NBSRBRF_fake_script() -- XFuel.LocalScript 
+coroutine.wrap(SPZDA_fake_script)()
+local function QPMROZW_fake_script() -- XFuel.LocalScript 
 	local script = Instance.new('LocalScript', XFuel)
 
 	local player = game.Players.LocalPlayer
@@ -836,8 +882,19 @@ local function NBSRBRF_fake_script() -- XFuel.LocalScript
 	end)
 	
 end
-coroutine.wrap(NBSRBRF_fake_script)()
-local function ZSVCUST_fake_script() -- SilentAim.LocalScript 
+coroutine.wrap(QPMROZW_fake_script)()
+local function SGIJYD_fake_script() -- AdminSpawn.LocalScript 
+	local script = Instance.new('LocalScript', AdminSpawn)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:connect(function()
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(86.32747650146484, -23.171159744262695, -738.2286987304688)
+	end)
+	
+end
+coroutine.wrap(SGIJYD_fake_script)()
+local function AAUL_fake_script() -- SilentAim.LocalScript 
 	local script = Instance.new('LocalScript', SilentAim)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -864,8 +921,8 @@ local function ZSVCUST_fake_script() -- SilentAim.LocalScript
 	
 	end)
 end
-coroutine.wrap(ZSVCUST_fake_script)()
-local function UVAUGT_fake_script() -- Teleports.LocalScript 
+coroutine.wrap(AAUL_fake_script)()
+local function BVURLJ_fake_script() -- Teleports.LocalScript 
 	local script = Instance.new('LocalScript', Teleports)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -893,8 +950,8 @@ local function UVAUGT_fake_script() -- Teleports.LocalScript
 	
 	
 end
-coroutine.wrap(UVAUGT_fake_script)()
-local function VNEQID_fake_script() -- AdminPanel2.LocalScript 
+coroutine.wrap(BVURLJ_fake_script)()
+local function WIAG_fake_script() -- AdminPanel2.LocalScript 
 	local script = Instance.new('LocalScript', AdminPanel2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -922,8 +979,8 @@ local function VNEQID_fake_script() -- AdminPanel2.LocalScript
 	
 	
 end
-coroutine.wrap(VNEQID_fake_script)()
-local function YLOK_fake_script() -- Admin.LocalScript 
+coroutine.wrap(WIAG_fake_script)()
+local function TCGLJMJ_fake_script() -- Admin.LocalScript 
 	local script = Instance.new('LocalScript', Admin)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -933,16 +990,16 @@ local function YLOK_fake_script() -- Admin.LocalScript
 	end)
 	
 end
-coroutine.wrap(YLOK_fake_script)()
-local function NIQOTW_fake_script() -- Frame.Draggable 
+coroutine.wrap(TCGLJMJ_fake_script)()
+local function KFLEKZZ_fake_script() -- Frame.Draggable 
 	local script = Instance.new('LocalScript', Frame)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 	
 end
-coroutine.wrap(NIQOTW_fake_script)()
-local function GINYM_fake_script() -- SilentAim_2.LocalScript 
+coroutine.wrap(KFLEKZZ_fake_script)()
+local function ZBRBH_fake_script() -- SilentAim_2.LocalScript 
 	local script = Instance.new('LocalScript', SilentAim_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1008,8 +1065,8 @@ local function GINYM_fake_script() -- SilentAim_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(GINYM_fake_script)()
-local function AQIQ_fake_script() -- Frame.Close/Open 
+coroutine.wrap(ZBRBH_fake_script)()
+local function EUDIFR_fake_script() -- Frame.Close/Open 
 	local script = Instance.new('LocalScript', Frame)
 
 	local uis = game:GetService("UserInputService")
@@ -1029,8 +1086,8 @@ local function AQIQ_fake_script() -- Frame.Close/Open
 	end
 	uis.InputBegan:Connect(onInput)
 end
-coroutine.wrap(AQIQ_fake_script)()
-local function BOSWO_fake_script() -- LocalPlayer.LocalScript 
+coroutine.wrap(EUDIFR_fake_script)()
+local function KELG_fake_script() -- LocalPlayer.LocalScript 
 	local script = Instance.new('LocalScript', LocalPlayer)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1060,8 +1117,8 @@ local function BOSWO_fake_script() -- LocalPlayer.LocalScript
 	
 	
 end
-coroutine.wrap(BOSWO_fake_script)()
-local function PCIMQS_fake_script() -- Misc.LocalScript 
+coroutine.wrap(KELG_fake_script)()
+local function SKKHME_fake_script() -- Misc.LocalScript 
 	local script = Instance.new('LocalScript', Misc)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1089,8 +1146,8 @@ local function PCIMQS_fake_script() -- Misc.LocalScript
 	
 	
 end
-coroutine.wrap(PCIMQS_fake_script)()
-local function TVCDKA_fake_script() -- Credits.LocalScript 
+coroutine.wrap(SKKHME_fake_script)()
+local function HLPTZQ_fake_script() -- Credits.LocalScript 
 	local script = Instance.new('LocalScript', Credits)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1118,8 +1175,8 @@ local function TVCDKA_fake_script() -- Credits.LocalScript
 	
 	
 end
-coroutine.wrap(TVCDKA_fake_script)()
-local function BHNV_fake_script() -- Antifling.LocalScript 
+coroutine.wrap(HLPTZQ_fake_script)()
+local function LLASOLM_fake_script() -- Antifling.LocalScript 
 	local script = Instance.new('LocalScript', Antifling)
 
 	local player = game.Players.LocalPlayer
@@ -1131,8 +1188,8 @@ local function BHNV_fake_script() -- Antifling.LocalScript
 	end)
 	
 end
-coroutine.wrap(BHNV_fake_script)()
-local function LANVXM_fake_script() -- Fly.LocalScript 
+coroutine.wrap(LLASOLM_fake_script)()
+local function FICAWHU_fake_script() -- Fly.LocalScript 
 	local script = Instance.new('LocalScript', Fly)
 
 	local player = game.Players.LocalPlayer
@@ -1209,8 +1266,8 @@ local function LANVXM_fake_script() -- Fly.LocalScript
 	end)
 	
 end
-coroutine.wrap(LANVXM_fake_script)()
-local function ASDKKWM_fake_script() -- Basketball_2.LocalScript 
+coroutine.wrap(FICAWHU_fake_script)()
+local function KXASUXU_fake_script() -- Basketball_2.LocalScript 
 	local script = Instance.new('LocalScript', Basketball_2)
 
 	local player = game.Players.LocalPlayer
@@ -1220,11 +1277,11 @@ local function ASDKKWM_fake_script() -- Basketball_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(ASDKKWM_fake_script)()
-local function QVMJ_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(KXASUXU_fake_script)()
+local function XOBPUU_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	game:GetService("StarterGui").ResetPlayerGuiOnSpawn = false
 	
 end
-coroutine.wrap(QVMJ_fake_script)()
+coroutine.wrap(XOBPUU_fake_script)()
