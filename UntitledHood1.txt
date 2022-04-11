@@ -1,0 +1,670 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local MainFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Separator = Instance.new("Frame")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local TextLabel = Instance.new("TextLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local GunsFrame = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local Shotgun = Instance.new("TextButton")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local UICorner_3 = Instance.new("UICorner")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local DbShotgun = Instance.new("TextButton")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local UICorner_4 = Instance.new("UICorner")
+local Revolver = Instance.new("TextButton")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local UICorner_5 = Instance.new("UICorner")
+local Glock = Instance.new("TextButton")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local UICorner_6 = Instance.new("UICorner")
+local P90 = Instance.new("TextButton")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local UICorner_7 = Instance.new("UICorner")
+local HighArmor = Instance.new("TextButton")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local UICorner_8 = Instance.new("UICorner")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+local ImageButton = Instance.new("ImageButton")
+local UICorner_9 = Instance.new("UICorner")
+local PlacesFrame = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+local TacoArea = Instance.new("TextButton")
+local UIAspectRatioConstraint_15 = Instance.new("UIAspectRatioConstraint")
+local UICorner_10 = Instance.new("UICorner")
+local Basketball = Instance.new("TextButton")
+local UIAspectRatioConstraint_16 = Instance.new("UIAspectRatioConstraint")
+local UICorner_11 = Instance.new("UICorner")
+local Casino = Instance.new("TextButton")
+local UIAspectRatioConstraint_17 = Instance.new("UIAspectRatioConstraint")
+local UICorner_12 = Instance.new("UICorner")
+local XFuel = Instance.new("TextButton")
+local UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
+local UICorner_13 = Instance.new("UICorner")
+local SilentAim = Instance.new("TextButton")
+local UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
+local Teleports = Instance.new("TextButton")
+local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
+local SilentAimTab = Instance.new("Frame")
+local SilentAim_2 = Instance.new("TextButton")
+local UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
+local AdminPanel2 = Instance.new("TextButton")
+local UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint")
+local AdminPanel = Instance.new("Frame")
+local Admin = Instance.new("TextButton")
+local UIAspectRatioConstraint_24 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_26 = Instance.new("UIAspectRatioConstraint")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Frame.Position = UDim2.new(0.26594016, 0, 0.190325707, 0)
+Frame.Size = UDim2.new(0.479737639, 0, 0.492468834, 0)
+
+UICorner.CornerRadius = UDim.new(0, 34)
+UICorner.Parent = Frame
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Frame
+MainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+MainFrame.Position = UDim2.new(0.0098057501, 0, 0.01191366, 0)
+MainFrame.Size = UDim2.new(0.979691863, 0, 0.972975969, 0)
+
+UICorner_2.CornerRadius = UDim.new(0, 34)
+UICorner_2.Parent = MainFrame
+
+UIAspectRatioConstraint.Parent = MainFrame
+UIAspectRatioConstraint.AspectRatio = 1.448
+
+Separator.Name = "Separator"
+Separator.Parent = MainFrame
+Separator.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Separator.BorderSizePixel = 0
+Separator.Position = UDim2.new(0.210653141, 0, 0.00244152592, 0)
+Separator.Size = UDim2.new(0.00942105986, 0, 0.992984831, 0)
+
+UIAspectRatioConstraint_2.Parent = Separator
+UIAspectRatioConstraint_2.AspectRatio = 0.014
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0263706762, 0, 0.0113780014, 0)
+TextLabel.Size = UDim2.new(0.171409398, 0, 0.0948166773, 0)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Untitled Hood"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 16.000
+
+UIAspectRatioConstraint_3.Parent = TextLabel
+UIAspectRatioConstraint_3.AspectRatio = 2.600
+
+GunsFrame.Name = "GunsFrame"
+GunsFrame.Parent = Frame
+GunsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GunsFrame.BackgroundTransparency = 1.000
+GunsFrame.Position = UDim2.new(0.251963526, 0, 0.0136718834, 0)
+GunsFrame.Size = UDim2.new(0.329822689, 0, 0.08203125, 0)
+GunsFrame.Visible = false
+
+TextLabel_2.Parent = GunsFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.0107290521, 0, -0.063329041, 0)
+TextLabel_2.Size = UDim2.new(1.00420165, 0, 1.19047606, 0)
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = "Guns / Armor"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 18.000
+
+UIAspectRatioConstraint_4.Parent = TextLabel_2
+UIAspectRatioConstraint_4.AspectRatio = 4.780
+
+Shotgun.Name = "Shotgun"
+Shotgun.Parent = GunsFrame
+Shotgun.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Shotgun.Position = UDim2.new(-0.013183333, 0, 1.34464419, 0)
+Shotgun.Size = UDim2.new(1.04621851, 0, 1.02380955, 0)
+Shotgun.Font = Enum.Font.GothamBold
+Shotgun.Text = "Shotgun -  $1250"
+Shotgun.TextColor3 = Color3.fromRGB(255, 255, 255)
+Shotgun.TextSize = 16.000
+
+UIAspectRatioConstraint_5.Parent = Shotgun
+UIAspectRatioConstraint_5.AspectRatio = 5.791
+
+UICorner_3.CornerRadius = UDim.new(0, 9)
+UICorner_3.Parent = Shotgun
+
+UIAspectRatioConstraint_6.Parent = GunsFrame
+UIAspectRatioConstraint_6.AspectRatio = 5.783
+
+DbShotgun.Name = "DbShotgun"
+DbShotgun.Parent = GunsFrame
+DbShotgun.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+DbShotgun.Position = UDim2.new(-0.013183333, 0, 2.50300574, 0)
+DbShotgun.Size = UDim2.new(1.04621851, 0, 1.02380955, 0)
+DbShotgun.Font = Enum.Font.GothamBold
+DbShotgun.Text = "Db Shotgun -  $1250"
+DbShotgun.TextColor3 = Color3.fromRGB(255, 255, 255)
+DbShotgun.TextSize = 16.000
+
+UIAspectRatioConstraint_7.Parent = DbShotgun
+UIAspectRatioConstraint_7.AspectRatio = 5.791
+
+UICorner_4.CornerRadius = UDim.new(0, 9)
+UICorner_4.Parent = DbShotgun
+
+Revolver.Name = "Revolver"
+Revolver.Parent = GunsFrame
+Revolver.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Revolver.Position = UDim2.new(-0.013183333, 0, 3.71928501, 0)
+Revolver.Size = UDim2.new(1.04621851, 0, 1.02380955, 0)
+Revolver.Font = Enum.Font.GothamBold
+Revolver.Text = "Revolver - $1300"
+Revolver.TextColor3 = Color3.fromRGB(255, 255, 255)
+Revolver.TextSize = 16.000
+
+UIAspectRatioConstraint_8.Parent = Revolver
+UIAspectRatioConstraint_8.AspectRatio = 5.791
+
+UICorner_5.CornerRadius = UDim.new(0, 9)
+UICorner_5.Parent = Revolver
+
+Glock.Name = "Glock"
+Glock.Parent = GunsFrame
+Glock.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Glock.Position = UDim2.new(-0.013183333, 0, 4.93556499, 0)
+Glock.Size = UDim2.new(1.04621851, 0, 1.02380955, 0)
+Glock.Font = Enum.Font.GothamBold
+Glock.Text = "Glock - $500"
+Glock.TextColor3 = Color3.fromRGB(255, 255, 255)
+Glock.TextSize = 16.000
+
+UIAspectRatioConstraint_9.Parent = Glock
+UIAspectRatioConstraint_9.AspectRatio = 5.791
+
+UICorner_6.CornerRadius = UDim.new(0, 9)
+UICorner_6.Parent = Glock
+
+P90.Name = "P90"
+P90.Parent = GunsFrame
+P90.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+P90.BorderSizePixel = 0
+P90.Position = UDim2.new(-0.010720741, 0, 6.15184498, 0)
+P90.Size = UDim2.new(1.02277756, 0, 1.02380955, 0)
+P90.Font = Enum.Font.GothamBold
+P90.Text = "P90 - $1000"
+P90.TextColor3 = Color3.fromRGB(255, 255, 255)
+P90.TextSize = 16.000
+
+UIAspectRatioConstraint_10.Parent = P90
+UIAspectRatioConstraint_10.AspectRatio = 5.791
+
+UICorner_7.CornerRadius = UDim.new(0, 9)
+UICorner_7.Parent = P90
+
+HighArmor.Name = "HighArmor"
+HighArmor.Parent = GunsFrame
+HighArmor.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+HighArmor.Position = UDim2.new(-0.010720741, 0, 7.36812449, 0)
+HighArmor.Size = UDim2.new(1.15043855, 0, 1.02380955, 0)
+HighArmor.Font = Enum.Font.GothamBold
+HighArmor.Text = "High Armor - $2300"
+HighArmor.TextColor3 = Color3.fromRGB(255, 255, 255)
+HighArmor.TextSize = 16.000
+
+UIAspectRatioConstraint_11.Parent = HighArmor
+UIAspectRatioConstraint_11.AspectRatio = 5.791
+
+UICorner_8.CornerRadius = UDim.new(0, 9)
+UICorner_8.Parent = HighArmor
+
+UIAspectRatioConstraint_12.Parent = Frame
+UIAspectRatioConstraint_12.AspectRatio = 1.438
+
+ImageButton.Parent = Frame
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.Position = UDim2.new(0.925958216, 0, 0.0105426814, 0)
+ImageButton.Size = UDim2.new(0, 38, 0, 42)
+ImageButton.Image = "http://www.roblox.com/asset/?id=2419293754"
+
+UICorner_9.CornerRadius = UDim.new(0, 34)
+UICorner_9.Parent = ImageButton
+
+PlacesFrame.Name = "PlacesFrame"
+PlacesFrame.Parent = Frame
+PlacesFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlacesFrame.BackgroundTransparency = 1.000
+PlacesFrame.Position = UDim2.new(0.251963526, 0, 0.0136718834, 0)
+PlacesFrame.Size = UDim2.new(0.329822689, 0, 0.08203125, 0)
+PlacesFrame.Visible = false
+
+TextLabel_3.Parent = PlacesFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(1.11605847, 0, -0.0343700051, 0)
+TextLabel_3.Size = UDim2.new(1.00420165, 0, 1.19047606, 0)
+TextLabel_3.Font = Enum.Font.GothamBold
+TextLabel_3.Text = "Places"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 18.000
+
+UIAspectRatioConstraint_13.Parent = TextLabel_3
+UIAspectRatioConstraint_13.AspectRatio = 4.780
+
+UIAspectRatioConstraint_14.Parent = PlacesFrame
+UIAspectRatioConstraint_14.AspectRatio = 5.783
+
+TacoArea.Name = "TacoArea"
+TacoArea.Parent = PlacesFrame
+TacoArea.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+TacoArea.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TacoArea.Position = UDim2.new(1.11606681, 0, 1.31568587, 0)
+TacoArea.Size = UDim2.new(1.02523983, 0, 1.02380955, 0)
+TacoArea.Font = Enum.Font.GothamBold
+TacoArea.Text = "Taco Area"
+TacoArea.TextColor3 = Color3.fromRGB(255, 255, 255)
+TacoArea.TextSize = 16.000
+
+UIAspectRatioConstraint_15.Parent = TacoArea
+UIAspectRatioConstraint_15.AspectRatio = 5.791
+
+UICorner_10.CornerRadius = UDim.new(0, 9)
+UICorner_10.Parent = TacoArea
+
+Basketball.Name = "Basketball"
+Basketball.Parent = PlacesFrame
+Basketball.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Basketball.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Basketball.Position = UDim2.new(1.11606693, 0, 2.50300646, 0)
+Basketball.Size = UDim2.new(1.02523983, 0, 1.02380955, 0)
+Basketball.Font = Enum.Font.GothamBold
+Basketball.Text = "BasketBall Area"
+Basketball.TextColor3 = Color3.fromRGB(255, 255, 255)
+Basketball.TextSize = 16.000
+
+UIAspectRatioConstraint_16.Parent = Basketball
+UIAspectRatioConstraint_16.AspectRatio = 5.791
+
+UICorner_11.CornerRadius = UDim.new(0, 9)
+UICorner_11.Parent = Basketball
+
+Casino.Name = "Casino"
+Casino.Parent = PlacesFrame
+Casino.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Casino.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Casino.Position = UDim2.new(1.11606693, 0, 3.7192862, 0)
+Casino.Size = UDim2.new(1.15043855, 0, 1.02380955, 0)
+Casino.Font = Enum.Font.GothamBold
+Casino.Text = "Casino"
+Casino.TextColor3 = Color3.fromRGB(255, 255, 255)
+Casino.TextSize = 16.000
+
+UIAspectRatioConstraint_17.Parent = Casino
+UIAspectRatioConstraint_17.AspectRatio = 5.791
+
+UICorner_12.CornerRadius = UDim.new(0, 9)
+UICorner_12.Parent = Casino
+
+XFuel.Name = "XFuel"
+XFuel.Parent = PlacesFrame
+XFuel.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+XFuel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+XFuel.Position = UDim2.new(1.11606693, 0, 4.93556547, 0)
+XFuel.Size = UDim2.new(1.15043855, 0, 1.02380955, 0)
+XFuel.Font = Enum.Font.GothamBold
+XFuel.Text = "XFuel Gas Station"
+XFuel.TextColor3 = Color3.fromRGB(255, 255, 255)
+XFuel.TextSize = 16.000
+
+UIAspectRatioConstraint_18.Parent = XFuel
+UIAspectRatioConstraint_18.AspectRatio = 5.791
+
+UICorner_13.CornerRadius = UDim.new(0, 9)
+UICorner_13.Parent = XFuel
+
+SilentAim.Name = "SilentAim"
+SilentAim.Parent = Frame
+SilentAim.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+SilentAim.BorderSizePixel = 0
+SilentAim.Position = UDim2.new(0.0151840104, 0, 0.239057094, 0)
+SilentAim.Size = UDim2.new(0.19111295, 0, 0.0974501744, 0)
+SilentAim.Font = Enum.Font.GothamBold
+SilentAim.Text = "Silent Aim"
+SilentAim.TextColor3 = Color3.fromRGB(255, 255, 255)
+SilentAim.TextSize = 16.000
+
+UIAspectRatioConstraint_19.Parent = SilentAim
+UIAspectRatioConstraint_19.AspectRatio = 2.840
+
+Teleports.Name = "Teleports"
+Teleports.Parent = Frame
+Teleports.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Teleports.BorderSizePixel = 0
+Teleports.Position = UDim2.new(0.0151840104, 0, 0.116999999, 0)
+Teleports.Size = UDim2.new(0.19111295, 0, 0.0974501744, 0)
+Teleports.Font = Enum.Font.GothamBold
+Teleports.Text = "Teleports"
+Teleports.TextColor3 = Color3.fromRGB(255, 255, 255)
+Teleports.TextSize = 16.000
+
+UIAspectRatioConstraint_20.Parent = Teleports
+UIAspectRatioConstraint_20.AspectRatio = 2.840
+
+SilentAimTab.Name = "SilentAimTab"
+SilentAimTab.Parent = Frame
+SilentAimTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SilentAimTab.BackgroundTransparency = 1.000
+SilentAimTab.BorderSizePixel = 0
+SilentAimTab.Position = UDim2.new(0.25194943, 0, 0.105301037, 0)
+SilentAimTab.Size = UDim2.new(0.671359897, 0, 0.118875369, 0)
+SilentAimTab.Visible = false
+
+SilentAim_2.Name = "SilentAim"
+SilentAim_2.Parent = SilentAimTab
+SilentAim_2.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+SilentAim_2.BorderSizePixel = 0
+SilentAim_2.Size = UDim2.new(1, 0, 1.02040815, 0)
+SilentAim_2.Font = Enum.Font.GothamBold
+SilentAim_2.Text = "Silent Aim"
+SilentAim_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SilentAim_2.TextSize = 18.000
+
+UIAspectRatioConstraint_21.Parent = SilentAim_2
+UIAspectRatioConstraint_21.AspectRatio = 7.960
+
+UIAspectRatioConstraint_22.Parent = SilentAimTab
+UIAspectRatioConstraint_22.AspectRatio = 8.122
+
+AdminPanel2.Name = "AdminPanel2"
+AdminPanel2.Parent = Frame
+AdminPanel2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+AdminPanel2.BorderSizePixel = 0
+AdminPanel2.Position = UDim2.new(0.0151840104, 0, 0.372352391, 0)
+AdminPanel2.Size = UDim2.new(0.19111295, 0, 0.0974501744, 0)
+AdminPanel2.Font = Enum.Font.GothamBold
+AdminPanel2.Text = "Admin Panel"
+AdminPanel2.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdminPanel2.TextSize = 16.000
+
+UIAspectRatioConstraint_23.Parent = AdminPanel2
+UIAspectRatioConstraint_23.AspectRatio = 2.840
+
+AdminPanel.Name = "AdminPanel"
+AdminPanel.Parent = Frame
+AdminPanel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AdminPanel.BackgroundTransparency = 1.000
+AdminPanel.BorderSizePixel = 0
+AdminPanel.Position = UDim2.new(0.238421947, 0, 0.0437747017, 0)
+AdminPanel.Size = UDim2.new(0.684854567, 0, 0.118875369, 0)
+AdminPanel.Visible = false
+
+Admin.Name = "Admin"
+Admin.Parent = AdminPanel
+Admin.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Admin.BorderSizePixel = 0
+Admin.Size = UDim2.new(1, 0, 1.02040815, 0)
+Admin.Font = Enum.Font.GothamBold
+Admin.Text = "Admin Panel"
+Admin.TextColor3 = Color3.fromRGB(255, 255, 255)
+Admin.TextSize = 18.000
+
+UIAspectRatioConstraint_24.Parent = Admin
+UIAspectRatioConstraint_24.AspectRatio = 8.120
+
+TextLabel_4.Parent = AdminPanel
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.00246305414, 0, 1.28571427, 0)
+TextLabel_4.Size = UDim2.new(0.997536957, 0, 1.02040803, 0)
+TextLabel_4.Font = Enum.Font.GothamBold
+TextLabel_4.Text = "Please allow up to 10 seconds once clicking Admin Panel"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 12.000
+
+UIAspectRatioConstraint_25.Parent = TextLabel_4
+UIAspectRatioConstraint_25.AspectRatio = 8.100
+
+UIAspectRatioConstraint_26.Parent = AdminPanel
+UIAspectRatioConstraint_26.AspectRatio = 8.286
+
+-- Scripts:
+
+local function SZGMUN_fake_script() -- Shotgun.LocalScript 
+	local script = Instance.new('LocalScript', Shotgun)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:connect(function()
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(-553.6094970703125, 42.97393035888672, -1455.8033447265625)
+	end)
+	
+end
+coroutine.wrap(SZGMUN_fake_script)()
+local function BCSFL_fake_script() -- DbShotgun.LocalScript 
+	local script = Instance.new('LocalScript', DbShotgun)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:connect(function()
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(353.1744079589844, 47.49044418334961, -789.2376708984375)
+	end)
+	
+end
+coroutine.wrap(BCSFL_fake_script)()
+local function HSBKD_fake_script() -- Revolver.LocalScript 
+	local script = Instance.new('LocalScript', Revolver)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:connect(function()
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(-476.1642761230469, 8.00737476348877, -956.8585815429688)
+	end)
+	
+end
+coroutine.wrap(HSBKD_fake_script)()
+local function QUGKLPL_fake_script() -- Glock.LocalScript 
+	local script = Instance.new('LocalScript', Glock)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:connect(function()
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(-540.1522827148438, 42.97393035888672, -1467.45458984375)
+	end)
+	
+end
+coroutine.wrap(QUGKLPL_fake_script)()
+local function MNVRFKN_fake_script() -- P90.LocalScript 
+	local script = Instance.new('LocalScript', P90)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:connect(function()
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(-556.576171875, 42.97393035888672, -1460.882568359375)
+	end)
+	
+end
+coroutine.wrap(MNVRFKN_fake_script)()
+local function SUAUG_fake_script() -- HighArmor.LocalScript 
+	local script = Instance.new('LocalScript', HighArmor)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:connect(function()
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(239.86805725097656, 28.353322982788086, -1048.108642578125)
+	end)
+	
+end
+coroutine.wrap(SUAUG_fake_script)()
+local function MZKID_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Parent.Frame.Visible = false
+	end)
+	
+end
+coroutine.wrap(MZKID_fake_script)()
+local function PFWPZJQ_fake_script() -- TacoArea.LocalScript 
+	local script = Instance.new('LocalScript', TacoArea)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:connect(function()
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(-156.84352111816406, 20.080108642578125, -997.227783203125)
+	end)
+	
+end
+coroutine.wrap(PFWPZJQ_fake_script)()
+local function UZCQQ_fake_script() -- Basketball.LocalScript 
+	local script = Instance.new('LocalScript', Basketball)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:connect(function()
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(-534.798828125, 41.40958786010742, -1398.4642333984375)
+	end)
+	
+end
+coroutine.wrap(UZCQQ_fake_script)()
+local function MIOJ_fake_script() -- Casino.LocalScript 
+	local script = Instance.new('LocalScript', Casino)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:connect(function()
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(398.101806640625, 46.20061492919922, -760.8727416992188)
+	end)
+	
+end
+coroutine.wrap(MIOJ_fake_script)()
+local function ZGUDHHN_fake_script() -- XFuel.LocalScript 
+	local script = Instance.new('LocalScript', XFuel)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:connect(function()
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(-169.36907958984375, 21.757699966430664, -580.7548828125)
+	end)
+	
+end
+coroutine.wrap(ZGUDHHN_fake_script)()
+local function DSNXMA_fake_script() -- SilentAim.LocalScript 
+	local script = Instance.new('LocalScript', SilentAim)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Teleports.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.AdminPanel2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		
+		
+		script.Parent.BackgroundColor3 = Color3.fromRGB(52,52,52) 
+		
+		script.Parent.Parent.SilentAimTab.Visible = true
+		
+	
+		
+		script.Parent.Parent.PlacesFrame.Visible = false
+		script.Parent.Parent.GunsFrame.Visible = false
+		script.Parent.Parent.AdminPanel.Visible = false
+	
+	end)
+end
+coroutine.wrap(DSNXMA_fake_script)()
+local function VXVX_fake_script() -- Teleports.LocalScript 
+	local script = Instance.new('LocalScript', Teleports)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.SilentAim.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.AdminPanel2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		
+		
+		script.Parent.BackgroundColor3 = Color3.fromRGB(52,52,52) 
+		
+		script.Parent.Parent.SilentAimTab.Visible = false
+	    script.Parent.Parent.AdminPanel.Visible = false
+		
+		script.Parent.Parent.GunsFrame.Visible = true
+		script.Parent.Parent.PlacesFrame.Visible = true
+		
+	end)
+	
+		
+	
+	
+end
+coroutine.wrap(VXVX_fake_script)()
+local function CFGVFB_fake_script() -- SilentAim_2.LocalScript 
+	local script = Instance.new('LocalScript', SilentAim_2)
+
+	script.Parent.MouseButton1Click:connect(function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Experimental%20Silent%20Aim%20Module.lua"))()
+	end)
+	
+end
+coroutine.wrap(CFGVFB_fake_script)()
+local function NORR_fake_script() -- AdminPanel2.LocalScript 
+	local script = Instance.new('LocalScript', AdminPanel2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.SilentAim.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		script.Parent.Parent.Teleports.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+		
+		
+		script.Parent.BackgroundColor3 = Color3.fromRGB(52,52,52) 
+		
+		script.Parent.Parent.AdminPanel.Visible = true
+		
+		script.Parent.Parent.SilentAimTab.Visible = false
+		script.Parent.Parent.PlacesFrame.Visible = false
+		script.Parent.Parent.GunsFrame.Visible = false
+	
+	
+	end)
+	
+		
+	
+	
+end
+coroutine.wrap(NORR_fake_script)()
+local function XEXSKKK_fake_script() -- Admin.LocalScript 
+	local script = Instance.new('LocalScript', Admin)
+
+	script.Parent.MouseButton1Click:connect(function()
+		getgenv().Methodd = "Panel" -- "Give", "Reset", "Panel", "Destroyer"
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Linux6699/DaHubRevival/main/UntitledFucker.lua'))()
+		
+	end)
+	
+end
+coroutine.wrap(XEXSKKK_fake_script)()
+local function FOAH_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+	
+end
+coroutine.wrap(FOAH_fake_script)()
