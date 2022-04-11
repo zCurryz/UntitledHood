@@ -479,6 +479,30 @@ LocalPlayerTab.Size = UDim2.new(0, 412, 0, 53)
 
 -- Scripts:
 
+local Workspace = game:GetService("Workspace") 
+local Players = game.Players.LocalPlayer  
+local Character = Players.Character     
+function Buy(Object)     local Object = Object     
+local LockPicker = Workspace.Ignored.Shop[Object]     
+Character.HumanoidRootPart.CFrame = LockPicker.Head.CFrame + Vector3.new(0, 3, 0)     
+wait(0.5)  
+fireclickdetector(LockPicker.ClickDetector)     
+fireclickdetector(LockPicker.ClickDetector) end  
+Buy("[Revolver] - $1300")  wait(0.5)   wait(0.5)
+
+game.ReplicatedStorage:FindFirstChild(".gg/untitledhood"):FireServer(
+"Reload",
+{
+	Name = "[Revolver]", --// reminder: [Double-Barrel SG] or [Revolver] works for any gun but i put it here so i can just copy and paste whenever i want to
+	Parent = Game.Players.LocalPlayer.Backpack,
+	ClassName = "Tool",
+	Ammo = {Value = math.huge*9e9},
+	MaxAmmo = {Value = 0},
+	GunScript = game:GetService("Players").LocalPlayer.Backpack["[Revolver]"].GunScript,
+	Handle = game:GetService("Players").LocalPlayer.Backpack["[Revolver]"].Handle
+}
+)
+
 local function XZGW_fake_script() -- Shotgun.LocalScript 
 	local script = Instance.new('LocalScript', Shotgun)
 
